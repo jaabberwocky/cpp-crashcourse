@@ -31,16 +31,16 @@ int main() {
     printf("Voter %s is %d years old.\n", v.name, v.age);
     switch (v.choice) {
         case Parties::PAP: {
-            printf("Oh no!\n");
+            printf("PAP!\n");
         } break;
         case Parties::WP: {
             printf("Hammer time!\n");
         } break;
         case Parties::PSP: {
-            printf("Alright!\n");
+            printf("PSP!\n");
         } break;
         case Parties::SDP: {
-            printf("Crazy!\n");
+            printf("SDP!\n");
         } break;
     }
 }
