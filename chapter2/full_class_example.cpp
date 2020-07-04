@@ -9,6 +9,7 @@ struct YearNow {
     }
 
     // custom constructor
+    // note: you can add it any arbitrary number of constructors of different types
     YearNow(int year_input) {
         if (!set_year(year_input)) {
             year = 2019;
@@ -58,5 +59,6 @@ int main() {
     print_year(y.get_year());
     y.add_year();
     print_year(y.get_year());
+    y2.subtract_year();
     print_year(y2.get_year());
 }
